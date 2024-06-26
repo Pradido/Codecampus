@@ -1,0 +1,47 @@
+.FlexWrapper {
+    background-color: indigo;
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+    width: 100%;
+    }
+
+
+.FlexItem {
+    background-color: #34005b;
+    border: 1px solid #ebebeb;
+    height: 100px;
+    display: flex;
+    }
+    .FlexOne {
+    flex: 1.5 0 auto;
+        }
+    .FlexTwo,
+    .FlexThree {
+    flex: 0 0 auto;
+    }
+
+    html,
+body {
+margin: 0;
+padding: 0;
+}
+html {
+height: 100%;
+}
+body {
+font-family: 'Oswald', sans-serif;
+color: #ebebeb;
+display: flex;
+flex-direction: column;
+min-height: 100%;
+}
+.MainContent {
+flex: 1 0 auto;
+color: #333;
+padding: 0.5rem;
+}
+.Footer {
+background-color: violet;
+padding: 0.5rem;
+}

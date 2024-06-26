@@ -1,0 +1,90 @@
+/* using the tag name for simple selector */
+
+body{
+   /* background-repeat: no-repeat; 
+   background-attachment: fixed;
+   background-position: top right;background-image: url(Prada.jpg); */
+   background: url(Prada.jpg) no-repeat, fixed, top right ;
+   background-size: 400px
+}
+*{
+    text-align: left;
+}
+
+h1{
+    color: red;
+    text-decoration: overline wavy;
+    /* border-top: 1px solid red; */
+    /* border-width: 5px 4px; */
+    /* border-style: dashed  double; */
+    /* border-color: red  yellow; */
+    margin-top: 30px;
+    margin-bottom: 70px;
+    margin-left: 200px;    
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    
+}    
+    /* text-align: center;  */
+
+/* using the class name for simple selector */
+
+.sass{
+    color: brown;
+    font-size: 24px;
+}
+
+#aj3{
+    background-color: blue;
+}
+
+.ajax, .sass, div{
+    text-decoration: overline;
+}
+
+.color1, color2, .color2, .color3, .color4{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red
+}
+.color1{
+    background-color: rgb(199, 41, 199);
+    color: white;
+}
+
+.color2{
+    background-color: rgb(37, 43, 32);
+}
+
+.color3{
+    background-color: #C0392B;
+}
+
+.height{
+    border: 1px solid red;
+    width: 500px;
+    margin: auto;
+    text-align: justify;
+    text-align: last;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.name{
+    text-transform: capitalize;
+}
+
+.indent{
+    text-indent: 30px;
+    word-spacing: 5px;
+    line-height: 30px;
+}
+
+h3{
+    letter-spacing: 5px;
+    text-shadow: 1px 1px 10px rgb(0, 225, 162), 2px 2px 2px red
+    
+}

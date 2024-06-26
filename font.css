@@ -1,0 +1,56 @@
+h1{
+    font-family: Roboto;
+}
+
+
+span, a{
+border: 1px solid red;
+height: 100px;
+display: inline-block;
+}
+
+h1{
+    font-family: roboto;
+    display: none;
+}
+
+p{
+    font-family: 'gwendolyn', cursive;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+span,
+a{
+    display: inline-block;
+}
+
+ul{
+    list-style-type: none;
+    background-color: rgb(235, 12, 12);
+}
+
+li{
+    display: inline-block;
+    margin-right: 18rem;
+    color: rgb(227, 236, 236);
+}
+
+.width{
+    width: 700px;
+    border: 1px solid red;
+    background-color: blue;
+}
+
+    .max-width{
+        max-width: 700px;
+        border: 1px solid rgb(131, 96, 49);
+        background-color: black;
+    }
+
+    .min-width{
+        min-width: 700px;
+        border: 1px solid rgb(42, 199, 28);
+        background-color: goldenrod;
+    } 

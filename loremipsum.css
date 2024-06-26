@@ -1,0 +1,47 @@
+/* using the tag name for a simple selector */
+.new{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    
+}
+
+.old{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 50%;
+}
+
+h2{
+    text-transform: capitalize;
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+}
+
+.first{
+    margin: 15px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.second{
+    margin: 15px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.third{
+    margin: 15px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.fourth{
+    margin: 15px;
+    padding: 10px;
+    text-align: justify;
+}
