@@ -132,28 +132,14 @@ span{
     border-radius: 40%
 }
 
+.services{
+    display: flex;
+}
+
 .footer-icons{
     display: flex;
     justify-content: space-between;
     list-style-type: none;
     background-color: rgb(172, 111, 20);
     padding: 15px;
-}
-
-.services{
-    flex-direction: row;
-}
-
-.provision{
-    text-align: center;
-    color: rgb(115, 155, 40);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 35px;
-    margin-top: 50px;
-    padding: 20px;
-}
-
-.span2{
-    font-size: 16px;
-    color: rgb(115, 155, 40);
 }
